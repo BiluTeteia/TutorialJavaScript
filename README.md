@@ -10,7 +10,7 @@ JavaScript (frequentemente abreviado como JS) é uma linguagem de programação 
 
 ## Sintaxe Básica
 
-O JavaScript é uma linguagem com tipagem básica, isso significa que não é necessário explicitar o tipo (int, string, boolean...) que a variável possui, como em Java.
+O JavaScript é uma linguagem com tipagem básica, isso significa que não é necessário explicitar o tipo (number, string, boolean...) que a variável possui, como em Java.
 
 ### Exemplo:
 
@@ -19,3 +19,15 @@ const nomeDeVariavel = 5
 ```
 
 Como é possível ver, a variável não possui um tipo específico, ela é simplesmente criada com uma palavra-chave que a antecede, neste caso foi usado _const_, que indica que o valor desta variavel (5) não pode ser alterado. Para ser possível alterar o valor de uma variável é neccesário usar a palavra-chave _let_ (é possível também usar a palavra-chave _var_, mas ela já caiu em desuso)
+
+## Variáveis
+
+As variáveis mais comuns no JavaScript são:
+
+* String - Usado para declarar textos
+* Number - Usado para declarar números
+* Bigint - Usado para declarar números grandes demais para o usual Number
+* Boolean - Usado para declarar valores ou falsos ou verdadeiros
+* Undefined - Usado para declarar um valor que ainda é indefinido
+* Null - Usado para declarar uma variável ainda sem valor
+* Object - Usado para declarar uma variável com múltiplos valores 
