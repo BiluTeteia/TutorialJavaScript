@@ -20,7 +20,7 @@ const nomeDeVariavel = 5
 
 Como é possível ver, a variável não possui um tipo específico, ela é simplesmente criada com uma palavra-chave que a antecede, neste caso foi usado _const_, que indica que o valor desta variavel (5) não pode ser alterado. Para ser possível alterar o valor de uma variável é neccesário usar a palavra-chave _let_ (é possível também usar a palavra-chave _var_, mas ela já caiu em desuso)
 
-## Variáveis
+## Variáveis e Tipos de Dados
 
 As variáveis mais comuns no JavaScript são:
 
@@ -38,8 +38,22 @@ const variavelNumber = 5
 const variavelBoolean = true
 const variavelArray = [1, "dois", 3, false, 5]
 const variavelObjeto = {
-chave1 = "Valor da chave 1",
-chave2 = 2,
-chave3 = variavelNumber
+  chave1 = "Valor da chave 1",
+  chave2 = 2,
+  chave3 = variavelNumber
 }
 ```
+
+## Funções
+
+Funções são blocos de código com o propósito de fazer uma tarefa específica. Essas funções usam a palavra-chave "return" para entregar o resultado da função.
+
+### Exemplo: 
+
+```
+function nomeDaFuncao(nomeDoParametro){
+  return "O parametro é: " + nomeDoParametro
+}
+```
+
+Neste exemplo a função de nome "nomeDaFunção" recebe como parametro um valor qualquer, de nome "nomeDoParametro", e retorna uma frase com o valor que foi atribuído à "nomeDoParametro". Caso o valor de "nomeDoParametro" seja "Brasil", o resultado dessa função, ou seu retorno, será: "O parametro é: Brasil"
