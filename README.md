@@ -25,9 +25,21 @@ Como é possível ver, a variável não possui um tipo específico, ela é simpl
 As variáveis mais comuns no JavaScript são:
 
 * String - Usado para declarar textos
-* Number - Usado para declarar números
-* Bigint - Usado para declarar números grandes demais para o usual Number
+* Number - Usado para declarar números 
 * Boolean - Usado para declarar valores ou falsos ou verdadeiros
-* Undefined - Usado para declarar um valor que ainda é indefinido
-* Null - Usado para declarar uma variável ainda sem valor
-* Object - Usado para declarar uma variável com múltiplos valores 
+* Array - Usado para se armazenar múltiplos valores dentro de uma variável
+* Object - Usado para declarar uma variável com propriedades 
+
+### Exemplo:
+
+```
+const variavelString = "Texto"
+const variavelNumber = 5
+const variavelBoolean = true
+const variavelArray = [1, "dois", 3, false, 5]
+const variavelObjeto = {
+chave1 = "Valor da chave 1",
+chave2 = 2,
+chave3 = variavelNumber
+}
+```
