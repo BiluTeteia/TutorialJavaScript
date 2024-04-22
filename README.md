@@ -57,3 +57,6 @@ function nomeDaFuncao(nomeDoParametro){
 ```
 
 Neste exemplo a função de nome "nomeDaFunção" recebe como parametro um valor qualquer, de nome "nomeDoParametro", e retorna uma frase com o valor que foi atribuído à "nomeDoParametro". Caso o valor de "nomeDoParametro" seja "Brasil", o resultado dessa função, ou seu retorno, será: "O parametro é: Brasil"
+
+## Estruturas de contole
+
