@@ -8,9 +8,11 @@ JavaScript (frequentemente abreviado como JS) é uma linguagem de programação 
 
 ## Configuração de Ambiente
 
+
+
 ## Sintaxe Básica
 
-O JavaScript é uma linguagem com tipagem básica, isso significa que não é necessário explicitar o tipo (number, string, boolean...) que a variável possui, como em Java.
+O JavaScript é uma linguagem com tipagem básica, isso significa que não é necessário explicitar o tipo (`number`, `string`, `boolean`...) que a variável possui, como em Java.
 
 ### Exemplo:
 
