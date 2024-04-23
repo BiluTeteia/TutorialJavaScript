@@ -71,3 +71,21 @@ Neste exemplo a função de nome "nomeDaFunção" recebe como parametro um valor
 
 ## Estruturas de contole
 
+No JavaScript estruturas de controle permitem que desenvolvedores tomem decisões, iterem dados, lidem com erros e criem algoritmos complexos, duas das estruturas de controle mais comuns são o `if` e o loop `for`
+
+A estrutura `if` serve para comparar valores, assim efetuando linhas de código somente **se** algo for verdadeiro ou falso
+
+### Exemplo:
+
+```
+const numeroMaior = 2
+const numeroMenor = 4
+
+if (numeroMaior > numeroMenor){
+  return "Esta linha de codigo será efetuada"
+}
+
+if (numeroMaior < numeroMenor){
+  return "Esta linha de código nunca será efetuada"
+}
+```
