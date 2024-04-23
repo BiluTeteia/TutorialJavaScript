@@ -89,3 +89,28 @@ if (numeroMaior < numeroMenor){
   return "Esta linha de código nunca será efetuada"
 }
 ```
+
+A estrutura `for` serve para repetir um bloco de código x vezes. Sua estrutura recebe primeiro um valor inicial: `let i = 1`, um verificador para conferir se o loop continuará: `i <= 10`, e um incrementador: `i += 1`
+
+### Exemplo:
+
+```
+for(let i = 1; i <= 10; i += 1){
+  console.log("Iteração de número: " + i")
+}
+```
+
+Neste caso o resultado deste loop será:
+
+```
+Iteração de número: 1
+Iteração de número: 2
+Iteração de número: 3
+Iteração de número: 4
+Iteração de número: 5
+Iteração de número: 6
+Iteração de número: 7
+Iteração de número: 8
+Iteração de número: 9
+Iteração de número: 10
+```
