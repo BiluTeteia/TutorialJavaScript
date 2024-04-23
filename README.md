@@ -69,7 +69,7 @@ function nomeDaFuncao(nomeDoParametro){
 
 Neste exemplo a função de nome "nomeDaFunção" recebe como parametro um valor qualquer, de nome "nomeDoParametro", e retorna uma frase com o valor que foi atribuído à "nomeDoParametro". Caso o valor de "nomeDoParametro" seja "Brasil", o resultado dessa função, ou seu retorno, será: "O parametro é: Brasil"
 
-## Estruturas de contole
+## Estruturas de controle
 
 No JavaScript estruturas de controle permitem que desenvolvedores tomem decisões, iterem dados, lidem com erros e criem algoritmos complexos, duas das estruturas de controle mais comuns são o `if` e o loop `for`
 
