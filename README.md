@@ -8,7 +8,16 @@ JavaScript (frequentemente abreviado como JS) é uma linguagem de programação 
 
 ## Configuração de Ambiente
 
+1. Primeiro devemos verificar se temos instalado no computador o Node.js. Para essa verificação no windows utilizamos no terminal de comando (CMD) o comando:
+```
+node --version
+```
 
+2. Em seguida devemos verificar se temos instalada a IDE mais conhecida atualmente é o Visual Studio Code. Para essa verificação no windows utilizamos no terminal de comando (CMD) o comando:
+
+```
+code --version
+```
 
 ## Sintaxe Básica
 
